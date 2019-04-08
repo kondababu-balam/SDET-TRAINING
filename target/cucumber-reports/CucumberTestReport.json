@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Book a hotel in traveloka web application",
+        "description": "",
+        "id": "hotel-search;book-a-hotel-in-traveloka-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11264580008,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter place to book hotel as Singapore",
+            "match": {
+              "location": "hotelSearchStepDefinitions.enterPlacetoBookHotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 633835205,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects two guests in guests and rooms field",
+            "match": {
+              "location": "hotelSearchStepDefinitions.selectGuestAndRoomCount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5364228752,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects duration of stay and click on search button",
+            "match": {
+              "location": "hotelSearchStepDefinitions.selectDurationOfStayAndContinue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22918627086,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects hotel and fill user information",
+            "match": {
+              "location": "hotelSearchStepDefinitions.selectHotelAndFillUserInfo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestRail-CTR-230033"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Search",
+    "description": "",
+    "id": "hotel-search",
+    "keyword": "Feature",
+    "uri": "HotelSearch.feature"
+  }
+]

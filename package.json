@@ -1,0 +1,41 @@
+{
+  "name": "cucumber-testrail",
+  "version": "0.0.1",
+  "author": "Doreen Hakimi",
+  "bin": {
+    "cucumber-testrail": "bin/cucumber-testrail"
+  },
+  "description": "Pushes Cucumber Results from CircleCI to TestRails",
+  "dependencies": {
+    "cli-table": "0.3.1",
+    "co": "4.6.0",
+    "lodash": "4.16.4",
+    "minimist": "1.2.0",
+    "mz": "2.4.0",
+    "request-promise": "4.1.1",
+    "require-yaml": "0.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "1.11.1",
+    "cucumber": "1.3.1",
+    "dependency-lint": "4.2.0",
+    "expect.js": "0.3.1",
+    "express": "4.14.0"
+  },
+  "files": [
+    "bin/cucumber-testrail",
+    "dist",
+    "README.md",
+    "FAQs.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Originate/cucumber-testrail.git"
+  },
+  "scripts": {
+    "test": "./bin/test"
+  }
+}
