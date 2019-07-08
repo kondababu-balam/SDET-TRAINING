@@ -115,3 +115,10 @@ public class hotelSearchPage{
 	 }
 	 	
 	 }
+
+
+Public void test()
+{
+println("test")
+}
+}
