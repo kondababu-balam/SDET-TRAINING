@@ -121,7 +121,12 @@ Public void test()
 {
 println("test")
 }
+
+public void test2()
+		{
+
 }
+
 
 public void trainigsdetbatch2()
 		{
@@ -131,3 +136,27 @@ public void trainigsdetbatch2lisa()
 		{
 		println("test")
 		}
+
+
+public void testgit(){
+	println("testgitnih")
+		}
+
+
+
+
+public void trainingsdetbatch2()
+		{
+			println("well");
+		}
+
+
+
+		public testing();
+
+public void trainigsdetbatch2lisa2()
+		{
+		println("test")
+		}
+
+
