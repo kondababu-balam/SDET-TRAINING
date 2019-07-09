@@ -128,3 +128,5 @@ public void trainingsdetbatch2()
 		{
 			println("well");
 		}
+
+		public testing();
