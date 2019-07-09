@@ -122,3 +122,9 @@ Public void test()
 println("test")
 }
 }
+
+public void testgit(){
+	println("testgitnih")
+		}
+
+
