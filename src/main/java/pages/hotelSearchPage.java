@@ -122,3 +122,12 @@ Public void test()
 println("test")
 }
 }
+
+public void trainigsdetbatch2()
+		{
+	println("test")
+		}
+public void trainigsdetbatch2lisa()
+		{
+		println("test")
+		}
