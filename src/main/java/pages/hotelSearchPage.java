@@ -123,8 +123,16 @@ println("test")
 }
 }
 
+
 public void testgit(){
 	println("testgitnih")
 		}
 
+
+
+
+public void trainingsdetbatch2()
+		{
+			println("well");
+		}
 
