@@ -126,3 +126,22 @@ public void test2()
 		{
 
 }
+
+
+public void testgit(){
+	println("testgitnih")
+		}
+
+
+
+
+public void trainingsdetbatch2()
+		{
+			println("well");
+		}
+
+
+
+		public testing();
+
+
