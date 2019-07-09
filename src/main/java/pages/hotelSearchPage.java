@@ -122,3 +122,9 @@ Public void test()
 println("test")
 }
 }
+
+
+public void trainingsdetbatch2()
+		{
+			println("well");
+		}
