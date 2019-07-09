@@ -121,4 +121,8 @@ Public void test()
 {
 println("test")
 }
+
+public void test2()
+		{
+
 }
