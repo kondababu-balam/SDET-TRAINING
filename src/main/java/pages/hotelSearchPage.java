@@ -156,7 +156,7 @@ public void trainingsdetbatch2()
 
 public void trainigsdetbatch2lisa2()
 		{
-		println("test")
+		println("mega")
 		}
 
 
