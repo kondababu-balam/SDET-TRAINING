@@ -1,0 +1,76 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OpenTraveloka {
+
+    public static void main(String[] args) throws InterruptedException {
+
+        WebDriver driver;
+
+        System.setProperty("webdriver.chrome.driver","/Users/irma.farhanah/Downloads/chromedriver 3");
+        driver = new ChromeDriver();
+        driver.get("https://www.traveloka.com/en/");
+
+        driver.findElement(By.xpath("//button[@data-id='tvat-confirmDiscoverProduct']")).click();
+
+        String title = driver.getTitle();
+        if (title.equals("Traveloka.com - The No. 1 solution for all your travel needs"))
+        {
+            System.out.println("we are in correct page");
+        }
+        else{
+            System.out.println("incorrect page");
+        }
+
+        Thread.sleep(2000);
+
+        driver.findElement(By.xpath("//span[contains(text(),'Transports')]")).click();
+        Thread.sleep(1000);
+
+        driver.findElement(By.xpath("//div[contains(text(),'Flights')]")).click();
+        Thread.sleep(1000);
+
+
+
+        //click menu Flight
+        //driver.findElement(By.xpath("//div[@class='_1SnbR mtlc7 tvat-FLIGHT']")).click();
+        //Thread.sleep(1000);
+
+        //click From
+        driver.findElement(By.xpath("//input[@placeholder='Origin']")).click();
+        Thread.sleep(1000);
+
+        //click index ke 3
+        driver.findElement(By.xpath("//div[@class='TSlys'][3]")).click();
+        Thread.sleep(1000);
+
+        //click To
+        driver.findElement(By.xpath("//input[@placeholder='Destination']")).click();
+        Thread.sleep(1000);
+
+        //click index ke 1
+        driver.findElement(By.xpath("//div[@class='TSlys'][1]")).click();
+        Thread.sleep(1000);
+
+        //click No of passengers
+        driver.findElement(By.xpath("//input[@value='1 Adult, 0 Child, 0 Infant']")).click();
+        Thread.sleep(1000);
+
+        //select number
+        driver.findElement(By.xpath("//span[@class='_1KrnW jjGhl _2HSse'"))
+
+        //click Departure Date
+
+
+        //click Seat class
+
+
+        //click Flexibility
+
+
+    }
+
+
+}
